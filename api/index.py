@@ -76,27 +76,9 @@ def index():
         components = json.loads(data.read())['components']
     return render_template('main.html', 
     title="",
-    project_name="Sample",
-    main_heading="",
-    content="",
-    stylesheets=['', ''],
-    body_classes="",
-    heading_classes="",
-    content_classes="",
-    subhead_classes="",
-    button_classes="",
-    components=components
-    )
-
-@app.route('/newpage')
-def newpage():
-    with open('data/newpage.json', 'r') as data:
-        components = json.loads(data.read())['components']
-    return render_template('main.html', 
-    title="",
-    project_name="Sample",
-    main_heading="",
-    content="",
+    project_name="Jaiwanth",
+    main_heading="T Jaiwanth",
+    content="My Links",
     stylesheets=['', ''],
     body_classes="",
     heading_classes="",
@@ -109,8 +91,4 @@ def newpage():
 @app.route('/blah')
 def blah():
     return redirect('somelink.com')
-
-@app.route('/random')
-def random():
-    return redirect('someotherlink.com')
 
