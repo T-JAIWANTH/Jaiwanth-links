@@ -75,16 +75,16 @@ def index():
     with open('data/index.json', 'r') as data:
         components = json.loads(data.read())['components']
     return render_template('main.html', 
-    title="",
+    title="Links",
     project_name="Jaiwanth",
     main_heading="T Jaiwanth",
-    content="My Links",
-    stylesheets=['', ''],
-    body_classes="",
-    heading_classes="",
-    content_classes="",
-    subhead_classes="",
-    button_classes="",
+    content="Here are all the links to my socials.",
+    stylesheets=["<style>@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Montserrat&display=swap');</style>", ''],
+    body_classes="font-body text-main",
+    heading_classes="font-heading text-main",
+    content_classes="text-main",
+    subhead_classes="font-heading",
+    button_classes="bg-main text-white rounded-md",
     components=components
     )
 
