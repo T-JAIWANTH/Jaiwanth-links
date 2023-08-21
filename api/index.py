@@ -88,7 +88,15 @@ def index():
     components=components
     )
 
-@app.route('/blah')
-def blah():
-    return redirect('somelink.com')
+@app.route('/linkedin')
+def linkedin():
+    return redirect('https://www.linkedin.com/in/jaiwanth-tatuskar-455925260/')
+
+@app.route('/instagram')
+def instagram():
+    return redirect('https://www.instagram.com/jaiwanth_tatuskar/')
+
+@app.route('/github')
+def github():
+    return redirect('https://github.com/T-JAIWANTH')
 
