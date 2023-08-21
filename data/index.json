@@ -16,14 +16,33 @@
                 "endpoint": "/instagram"
             }
         },
-         {
+        {
             "type": "button",
             "label": "GitHub",
             "properties": {
                 "link": "https://github.com/T-JAIWANTH",
                 "endpoint": "/github"
             }
-         }
-        
-    ]
+        },
+
+        {
+            "type": "heading",
+            "label": "Projects"
+        },
+        {
+            "type": "button",
+            "label": "Movie Recommendation Engine",
+            "properties": {
+                "link": "https://github.com/T-JAIWANTH/movie_recommendation_engine"
+            }
+        },
+        {
+            "type": "button",
+            "label": "Sudoku Solver GUI",
+            "properties": {
+                "link": "https://github.com/T-JAIWANTH/sudoku-solver"
+            }
+        }
+        
+    ]
 }
