@@ -1,25 +1,29 @@
 {
     "components": [
         {
-            "type": "heading",
-            "label": "Heading"
-        },
-
-        {
             "type": "button",
-            "label": "Button with Endpoint",
+            "label": "LinkedIn",
             "properties": {
-                "link": "somelink.com",
-                "endpoint": "/blah"
+                "link": "https://www.linkedin.com/in/jaiwanth-tatuskar-455925260/",
+                "endpoint": "/linkedin"
             }
         },
-
         {
             "type": "button",
-            "label": "Button without Endpoint",
+            "label": "Instagram",
             "properties": {
-                "link": "/newpage"
+                "link": "https://www.instagram.com/jaiwanth_tatuskar/",
+                "endpoint": "/instagram"
             }
-        }
+        },
+         {
+            "type": "button",
+            "label": "GitHub",
+            "properties": {
+                "link": "https://github.com/T-JAIWANTH",
+                "endpoint": "/github"
+            }
+         }
+        
     ]
 }
