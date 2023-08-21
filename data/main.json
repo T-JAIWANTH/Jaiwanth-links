@@ -3,24 +3,24 @@
     
     "page_content": {
         "main_heading": "T Jaiwanth",
-        "content": "My Links",
+        "content": "Here are all the links to my socials.",
         "styles": {
             "stylesheets": [
-                "", 
+                "<style>@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Montserrat&display=swap');</style>", 
                 ""
             ],
-            "body_classes": "",
-            "heading_classes": "",
-            "content_classes": "",
-            "subhead_classes": "",
-            "button_classes": ""
+            "body_classes": "font-body text-main",
+            "heading_classes": "font-heading text-main",
+            "content_classes": "text-main",
+            "subhead_classes": "font-heading",
+            "button_classes": "bg-main text-white rounded-md"
         }
     },
 
     "pages": [
         {
             "endpoint": "/",
-            "title": "",
+            "title": "Links",
             "file": "index.json"
         }
     ]
