@@ -1,9 +1,9 @@
 {
-    "project_name": "Sample",
+    "project_name": "Jaiwanth",
     
     "page_content": {
-        "main_heading": "",
-        "content": "",
+        "main_heading": "T Jaiwanth",
+        "content": "My Links",
         "styles": {
             "stylesheets": [
                 "", 
@@ -22,11 +22,6 @@
             "endpoint": "/",
             "title": "",
             "file": "index.json"
-        },
-        {
-            "endpoint": "/newpage",
-            "title": "",
-            "file": "newpage.json"
         }
     ]
 }
